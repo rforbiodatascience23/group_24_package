@@ -26,6 +26,8 @@ Welcome to group_24_package. This is a basic toolkit tailored for biologists wan
 
 ### Function 1
 
+my function the best
+
 ### Function 2
 
 ### Function 3
