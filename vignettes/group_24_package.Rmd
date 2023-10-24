@@ -26,9 +26,11 @@ Welcome to group_24_package. This is a basic toolkit tailored for biologists wan
 
 ### Function 1
 
-my function the best
+The SeqLen function lets the users generate a DNA sequence of their preferred length. It takes a number as an argument and returns a DNA sequence of length equal to the given number. Perfect for random sequence generation.
 
 ### Function 2
+
+The Transcr function mimics the process of transcription in the cells. It takes a DNA sequence as an argument and returns the RNA sequence, substituting the "T" with "U".
 
 ### Function 3
 

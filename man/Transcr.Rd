@@ -7,7 +7,7 @@
 Transcr(sequence)
 }
 \arguments{
-\item{sequence}{the sequence provided by the user}
+\item{sequence}{The sequence provided by the user}
 }
 \value{
 Takes a given DNA sequence and converts it to an RNA sequence,

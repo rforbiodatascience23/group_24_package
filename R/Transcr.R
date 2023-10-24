@@ -1,6 +1,6 @@
 #' Trasncr
 #'
-#' @param sequence the sequence provided by the user
+#' @param sequence The sequence provided by the user
 #'
 #' @return Takes a given DNA sequence and converts it to an RNA sequence,
 #' changing T to U

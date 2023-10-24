@@ -7,10 +7,10 @@
 SeqLen(length)
 }
 \arguments{
-\item{length}{the user decides the sequence length, provides a number}
+\item{length}{The user decides the sequence length, provides a number}
 }
 \value{
-creates a nucleotide sequence of given length
+Creates a nucleotide sequence of given length
 }
 \description{
 SeqLen

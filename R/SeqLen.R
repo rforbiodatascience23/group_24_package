@@ -1,8 +1,8 @@
 #' SeqLen
 #'
-#' @param length the user decides the sequence length, provides a number
+#' @param length The user decides the sequence length, provides a number
 #'
-#' @return creates a nucleotide sequence of given length
+#' @return Creates a nucleotide sequence of given length
 #' @export
 #'
 #' @examples
