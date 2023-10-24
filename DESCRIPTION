@@ -2,8 +2,8 @@ Package: cdogma24
 Type: Package
 Title: Central dogma of molecular biology by Team 24
 Version: 0.1.0
-Author@R: 
- c(person(given = "Konstantinos",
+Authors@R: 
+    c(person(given = "Konstantinos",
            family = "Lyroudis",
            role = c("aut", "cre"), 
            email = "s232994@dtu.dk"), 
@@ -22,7 +22,7 @@ Author@R:
     person(given = "Andre",
            family = "Rosengaard Jørgensen",
            role = "aut",
-           email = "s183451@dtu.dk"),
+           email = "s183451@dtu.dk"))
 Maintainer: The package maintainer <s232994f@dtu.dk>
 Description: Describes the central dogma of molecular biology (replication, 
             transciption, reverse transcription, translation)
