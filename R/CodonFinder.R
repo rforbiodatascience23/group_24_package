@@ -1,4 +1,4 @@
-#' Title A codon number function
+#' Title A codon Finder function
 #'
 #' @param my_seq The input sequence
 #' @param start The first nucleotide of the sequence
@@ -7,9 +7,9 @@
 #' @export
 #' @examples
 #'  my_seq <- "ATGGTACCTGA"
-#'  codons <- CodonCounter(my_seq)
+#'  codons <- CodonFinder(my_seq)
 #'  print(codons)
-CodonCounter <- function(my_seq, start = 1){
+CodonFinder <- function(my_seq, start = 1){
   seq_trans <- nchar(my_seq)
   codons <- substring(my_seq,
                       first = seq(from = start, to = seq_trans-3+1, by = 3),
