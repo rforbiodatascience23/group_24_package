@@ -16,3 +16,8 @@ changing T to U
 \description{
 Trasncr
 }
+\examples{
+my_seq <- "ATCGTA"
+my_rna <- Transcr(my_seq)
+my_rna
+}
