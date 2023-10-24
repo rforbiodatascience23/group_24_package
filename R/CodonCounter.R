@@ -7,9 +7,9 @@
 #' @export
 #' @examples
 #'  my_seq <- "ATGGTACCTGA"
-#'  codons <- Codon_number(my_seq)
+#'  codons <- CodonCounter(my_seq)
 #'  print(codons)
-Codon_number <- function(my_seq, start = 1){
+CodonCounter <- function(my_seq, start = 1){
   seq_trans <- nchar(my_seq)
   codons <- substring(my_seq,
                       first = seq(from = start, to = seq_trans-3+1, by = 3),

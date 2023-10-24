@@ -7,3 +7,4 @@ export(Codon_number)
 export(SeqLen)
 export(Transcr)
 
+export(CodonCounter)
