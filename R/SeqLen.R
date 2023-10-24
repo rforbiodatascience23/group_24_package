@@ -1,4 +1,4 @@
-#' Create a nucleotide sequence of given length
+#' SeqLen
 #'
 #' @param length the user decides the sequence length, provides a number
 #'
