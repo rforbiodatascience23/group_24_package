@@ -1,4 +1,4 @@
-#' Converts the DNA sequence to an RNA sequence
+#' Trasncr
 #'
 #' @param sequence the sequence provided by the user
 #'

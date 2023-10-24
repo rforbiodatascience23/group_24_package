@@ -2,7 +2,7 @@
 % Please edit documentation in R/Transcr.R
 \name{Transcr}
 \alias{Transcr}
-\title{Converts the DNA sequence to an RNA sequence}
+\title{Trasncr}
 \usage{
 Transcr(sequence)
 }
@@ -14,5 +14,5 @@ Takes a given DNA sequence and converts it to an RNA sequence,
 changing T to U
 }
 \description{
-Converts the DNA sequence to an RNA sequence
+Trasncr
 }

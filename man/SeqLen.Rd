@@ -2,7 +2,7 @@
 % Please edit documentation in R/SeqLen.R
 \name{SeqLen}
 \alias{SeqLen}
-\title{Create a nucleotide sequence of given length}
+\title{SeqLen}
 \usage{
 SeqLen(length)
 }
@@ -13,5 +13,5 @@ SeqLen(length)
 creates a nucleotide sequence of given length
 }
 \description{
-Create a nucleotide sequence of given length
+SeqLen
 }
