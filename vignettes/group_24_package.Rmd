@@ -1,0 +1,23 @@
+---
+title: "group_24_package"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{group_24_package}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(cdogma24)
+```
+
+# Introduction
+Welcome to group_24_package. This is a basic toolkit tailored for biologists wanting to do sequence data analysis. Our package streamlines the most common tasks associated with sequence data, ensuring users can smoothly analyse their sequence data.
+
