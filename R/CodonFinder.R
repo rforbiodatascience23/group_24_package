@@ -3,7 +3,7 @@
 #' @param my_seq The input sequence
 #' @param start The first nucleotide of the sequence
 #'
-#' @return The output is the number of the codons this sequence comprises of
+#' @return The output is the codons that the sequence consists of
 #' @export
 #' @examples
 #'  my_seq <- "ATGGTACCTGA"

@@ -12,7 +12,7 @@ CodonFinder(my_seq, start = 1)
 \item{start}{The first nucleotide of the sequence}
 }
 \value{
-The output is the number of the codons this sequence comprises of
+The output is the codons that the sequence consists of
 }
 \description{
 Title A codon Finder function

@@ -42,4 +42,6 @@ The CodonFounder function is a versatile tool for genetic sequence analysis. It 
 
 ### The functions all together
 
+All together, the five functions simulate (more or less) the central dogma of molecular biology. They can be combined to generate a random DNA sequence, transcribe it, split it to codons, translate them and finally create a plot presenting the amino acid frequencies in our peptide sequence.
+
 ## Discussion
