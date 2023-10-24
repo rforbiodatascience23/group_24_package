@@ -15,3 +15,8 @@ creates a nucleotide sequence of given length
 \description{
 SeqLen
 }
+\examples{
+my_length <- 10
+my_seq <- SeqLen(my_length)
+my_seq
+}
