@@ -30,6 +30,8 @@ Welcome to group_24_package. This is a basic toolkit tailored for biologists wan
 
 ### Function 3
 
+The CodonFounder function is a versatile tool for genetic sequence analysis. It takes as input a DNA or RNA sequence (my_seq) and extracts and returns the individual codons present in the sequence. Codons are groups of three nucleotide bases that play a crucial role in protein synthesis, where each codon encodes a specific amino acid. The function allows you to specify a starting position within the sequence (defaulting to the beginning) and effectively breaks down the input sequence into these fundamental building blocks. This function is invaluable for researchers and bioinformaticians working with genetic data, enabling a deeper understanding of the genetic code and its role in protein synthesis.
+
 ### Function 4
 
 ### Function 5
