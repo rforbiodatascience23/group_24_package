@@ -24,7 +24,7 @@ Authors@R:
            role = "aut",
            email = "s183451@dtu.dk"))
 Maintainer: The package maintainer <s232994f@dtu.dk>
-Description: Describes the central dogma of molecular biology (replication, 
+Description:  This package describes the central dogma of molecular biology (replication, 
             transciption, reverse transcription, translation)
 License: MIT + file LICENSE
 Encoding: UTF-8
