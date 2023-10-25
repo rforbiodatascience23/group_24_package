@@ -38,7 +38,7 @@ The CodonFinder function is a versatile tool for genetic sequence analysis. It t
 standard codon table.
 ### Function 4
 
-The ProChain function takes a series of triplets and looks up each of the triplets in the codon table. The function then finds the corresponding codon and returns these codons in the same order as the input codons, resulting in a codon sequence.
+The ProChain function takes a series of triplets and looks up each of the triplets in the standard codon table. The function then finds the corresponding codon and returns these codons in the same order as the input codons, resulting in a codon sequence.
 
 
 ### Function 5
