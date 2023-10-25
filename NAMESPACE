@@ -3,5 +3,8 @@
 export(AAcountsPlot)
 export(CodonFinder)
 export(ProChain)
+export(ReplDna)
+export(ReplRna)
+export(RevTrans)
 export(SeqLen)
 export(Transcr)
