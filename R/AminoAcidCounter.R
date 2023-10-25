@@ -19,11 +19,11 @@ AAcountsPlot <- function(seq){
     as.character() |>
     unique()
 
-  # This step counts the occurences of each of these unique AAs
+  # This step counts the occurrences of each of these unique AAs
   counts <- sapply(uniqueAAs, function(amino_acid) stringr::str_count(string = seq, pattern =  amino_acid)) |>
     as.data.frame()
 
-  # This step creates a plot of thye counts for each of the unique AAs
+  # This step creates a plot of the counts for each of the unique AAs
   colnames(counts) <- c("Counts")
   counts[["seq"]] <- rownames(counts)
   AACountPlot <- counts |>
