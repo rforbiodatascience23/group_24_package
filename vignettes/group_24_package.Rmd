@@ -28,25 +28,66 @@ Welcome to group_24_package. This is a basic toolkit tailored for biologists wan
 
 The SeqLen function lets the users generate a DNA sequence of their preferred length. It takes a number as an argument and returns a DNA sequence of length equal to the given number. Perfect for random sequence generation.
 
+```{r}
+SeqLen(10)
+```
+
 ### Function 2
 
 The Transcr function mimics the process of transcription in the cells. It takes a DNA sequence as an argument and returns the RNA sequence, substituting the "T" with "U".
+
+```{r}
+my_seq <- "ATCGTA"
+my_seq2 <- SeqLen(6)
+my_seq2
+Transcr(my_seq)
+Transcr(my_seq2)
+```
 
 ### Function 3
 
 The CodonFinder function is a versatile tool for genetic sequence analysis. It takes as input a DNA or RNA sequence (my_seq) and extracts and returns the individual codons present in the sequence. Codons are groups of three nucleotide bases that play a crucial role in protein synthesis, where each codon encodes a specific amino acid. The function allows you to specify a starting position within the sequence (defaulting to the beginning) and effectively breaks down the input sequence into these fundamental building blocks. This function is invaluable for researchers and bioinformaticians working with genetic data, enabling a deeper understanding of the genetic code and its role in protein synthesis. For now CodonFinder can only extract codons according to the standard codon table.
 
+```{r}
+my_seq <- "ATGGTACCTGA"
+CodonFinder(my_seq)
+```
+
 ### Function 4
 
 The ProChain function takes a series of triplets and looks up each of the triplets in the standard codon table. The function then finds the corresponding amino acid and returns this in the same order as the input codons, resulting in a amino acid sequence.
 
-### Function 5
+```{r}
+ProChain(c("UUA","AAA","CAG"))
+```
+
+###Function 5
 
 The AminoAcidCounter takes an amino acid sequence and counts the occurrences of each of the amino acids present. It then outputs a plot, showing these occurrences.
+
+```{r}
+sequence <- "ATAACGTCGTGCAAATCGGYCA"
+AAcountsPlot(sequence)
+```
 
 ### The functions all together
 
 All together, the five functions simulate (more or less) the central dogma of molecular biology. They can be combined to generate a random DNA sequence, transcribe it, split it to codons, translate them into amino acids of a peptide sequence and finally create a plot of the amino acid frequencies in the sequence.
+
+```{r}
+dna_sequence <- SeqLen(12)
+dna_sequence
+rna_sequence <- Transcr(dna_sequence)
+rna_sequence
+codon_sequence <- CodonFinder(rna_sequence)
+codon_sequence
+protein_sequence <- ProChain(codon_sequence)
+protein_sequence
+```
+
+```{r}
+AAcountsPlot(protein_sequence)
+```
 
 ## Discussion
 
